@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "heading": "Layers of the Earth",
+      "subheading": "Tap the heading, then tap each new line to show the next",
+      "bullets_reveal": "fade",
+      "bullets": [
+        "Crust: the thin outer shell we live on",
+        "Mantle: hot, slowly flowing rock",
+        "Core: iron and nickel, over 4000 °C"
+      ],
+      "items": [
+        {"type": "placeholder", "text": "Diagram of the Earth's layers", "x": 1050, "y": 230, "w": 700, "h": 500, "reveal": "fade"}
+      ]
+    },
+    {
+      "heading": "Quick check",
+      "items": [
+        {"type": "text", "text": "Which layer is the hottest?", "x": 70, "y": 220, "w": 1600, "size": 36},
+        {"type": "text", "text": "The core", "x": 70, "y": 380, "w": 800, "size": 36, "bold": true, "color": "#2a9d8f", "reveal": "fade"},
+        {"type": "text", "text": "Tap me and I slide across", "x": 70, "y": 700, "w": 700, "size": 28, "color": "#e76f51", "tap_move_to": [1000, 700]}
+      ]
+    }
+  ]
+}
